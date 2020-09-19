@@ -10,9 +10,10 @@
                 return await WebAssembly.instantiate(source, importObject);
             };
         }
+      const WASM_URL = '/tinygo/main.wasm';
         const go = new Go();
         let mod, inst;
-        WebAssembly.instantiateStreaming(fetch('https://www.github.com/jstewart7/test/releases/download/0.0.1/main.wasm'), go.importObject).then((result) => {
+        WebAssembly.instantiateStreaming(fetch(WASM_URL), go.importObject).then((result) => {
             mod = result.module;
             inst = result.instance;
             run().then((result) => {
