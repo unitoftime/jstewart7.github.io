@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Test on Jacob Stewart</title>
+    <link>https://jstewart7.github.io/tags/test/</link>
+    <description>Recent content in Test on Jacob Stewart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jacob Stewart; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 16 Sep 2020 11:30:03 +0530</lastBuildDate>
+    
+	<atom:link href="https://jstewart7.github.io/tags/test/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Papermod - Features</title>
+      <link>https://jstewart7.github.io/posts/testpost/</link>
+      <pubDate>Wed, 16 Sep 2020 11:30:03 +0530</pubDate>
+      
+      <guid>https://jstewart7.github.io/posts/testpost/</guid>
+      <description>This is just a basic test post with markdown. &amp;ndash; Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id diam maecenas ultricies mi eget mauris pharetra et. Tellus in metus vulputate eu scelerisque felis. Fermentum dui faucibus in ornare quam viverra orci. Mi ipsum faucibus vitae aliquet nec. Mauris cursus mattis molestie a. Eget mi proin sed libero enim sed faucibus.</description>
+    </item>
+    
+  </channel>
+</rss>
