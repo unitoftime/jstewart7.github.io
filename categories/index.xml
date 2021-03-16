@@ -6,10 +6,6 @@
     <description>Recent content in Categories on Jacob Stewart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Copyright © Jacob Stewart; all rights reserved.</copyright>
-    
-	<atom:link href="https://jstewart7.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <copyright>Copyright © Jacob Stewart; all rights reserved.</copyright><atom:link href="https://jstewart7.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
