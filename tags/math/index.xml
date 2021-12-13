@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on Jacob Stewart</title>
+    <link>https://jstewart7.github.io/tags/math/</link>
+    <description>Recent content in Math on Jacob Stewart</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Copyright © Jacob Stewart; all rights reserved.</copyright>
+    <lastBuildDate>Wed, 15 Sep 2021 00:40:08 +0000</lastBuildDate><atom:link href="https://jstewart7.github.io/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Since my name is Jacob, I better know what the Jacobian is...</title>
+      <link>https://jstewart7.github.io/posts/jacobian/</link>
+      <pubDate>Wed, 15 Sep 2021 00:40:08 +0000</pubDate>
+      
+      <guid>https://jstewart7.github.io/posts/jacobian/</guid>
+      <description>Introduction I figured that since my name is Jacob, I better know what the Jacobian is - just in case someone asks me. I stumbled upon this YouTube video about the Jacobian today and gave it a watch. I recalled using the Jacobian back in college; but at the time, I had never invested much time into learning what it actually was. Plus this gives me a good excuse to practice my Tex math notation.</description>
+    </item>
+    
+  </channel>
+</rss>
