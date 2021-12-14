@@ -10,7 +10,7 @@
 <meta name="description" content="Introduction This week I worked on adding a network proxy to our backend architecture. Today we will talk about what a network proxy is, why it is useful, and how we built ours.
 What even is a proxy? A proxy is a service that sits in front of another computer and forwards network messages on behalf of that computer. Similar to how a proxy voter might vote on behalf of a person - a proxy server sends and receives network traffic on behalf of another server.">
 <meta name="author" content="Jacob Stewart">
-<link rel="canonical" href="https://jstewart7.github.io/posts/intro_to_proxy/" />
+<link rel="canonical" href="https://unitoftime.github.io/posts/intro_to_proxy/" />
 
 
 
@@ -26,12 +26,12 @@ What even is a proxy? A proxy is a service that sits in front of another compute
 
 
 
-<link href="https://jstewart7.github.io/css/stylesheet.min.cfbbfb7ce24b935a0d4ff331ad82a1327f3c8d32fc39d0cbb72d65660700fc3a.css" integrity="sha256-z7v7fOJLk1oNT/MxrYKhMn88jTL8OdDLty1lZgcA/Do=" rel="preload stylesheet"
+<link href="https://unitoftime.github.io/css/stylesheet.min.cfbbfb7ce24b935a0d4ff331ad82a1327f3c8d32fc39d0cbb72d65660700fc3a.css" integrity="sha256-z7v7fOJLk1oNT/MxrYKhMn88jTL8OdDLty1lZgcA/Do=" rel="preload stylesheet"
     as="style">
 
 
-<link rel="apple-touch-icon" href="https://jstewart7.github.io/apple-touch-icon.png">
-<link rel="icon" href="https://jstewart7.github.io/favicon.ico">
+<link rel="apple-touch-icon" href="https://unitoftime.github.io/apple-touch-icon.png">
+<link rel="icon" href="https://unitoftime.github.io/favicon.ico">
 <meta name="generator" content="Hugo 0.88.1" />
 
 
@@ -42,16 +42,16 @@ What even is a proxy? A proxy is a service that sits in front of another compute
     id="top">
 <header class="header">
     <nav class="nav">
-        <h1 class="logo"><a href="https://jstewart7.github.io">Jacob Stewart</a></h1>
+        <p class="logo"><a href="https://unitoftime.github.io">Jacob Stewart</a></p>
         <ul class="menu" id="menu" onscroll="menu_on_scroll()">
             <li>
-                <a href="https://jstewart7.github.io/projects/">Projects</a>
+                <a href="https://unitoftime.github.io/projects/">Projects</a>
             </li>
             <li>
-                <a href="https://jstewart7.github.io/archives/">Archives</a>
+                <a href="https://unitoftime.github.io/archives/">Archives</a>
             </li>
             <li>
-                <a href="https://jstewart7.github.io/tags/">Tags</a>
+                <a href="https://unitoftime.github.io/tags/">Tags</a>
             </li>
         </ul>
     </nav>
@@ -167,12 +167,12 @@ What even is a proxy? A proxy is a service that sits in front of another compute
 <p>Proxies can provide a lot of advantages in organization, scalability, security, availability, and maybe even latency. As you saw, the general architecture is not that difficult to follow. That said, what I&rsquo;ve presented here isn&rsquo;t a production-ready proxy by any means. This was an introduction to what a first-draft proxy might look like. In the future, I&rsquo;m hoping to ruggedize this a bit more and hopefully provide better insights into performance losses and gains.</p>
 <hr>
 <p>This entry is related to my YouTube series: <a href="https://bit.ly/MakingAnMMOPlaylist">Making an MMO</a></p>
-<p>You can find code related to this project here: <a href="https://github.com/jstewart7/mmo">Github</a></p>
+<p>You can find code related to this project here: <a href="https://github.com/unitoftime/mmo">Github</a></p>
 </div>
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://jstewart7.github.io/tags/mmo">MMO</a></li>
-      <li><a href="https://jstewart7.github.io/tags/programming">Programming</a></li>
+      <li><a href="https://unitoftime.github.io/tags/mmo">MMO</a></li>
+      <li><a href="https://unitoftime.github.io/tags/programming">Programming</a></li>
     </ul>
     
     
@@ -180,7 +180,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
 <div class="share-buttons">
     <p>Share On</p>
     <a class="share-button-single" target="_blank" rel="noopener" name="twitter"
-        href="https://twitter.com/intent/tweet/?text=Introduction%20to%20Proxies&amp;url=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f">
+        href="https://twitter.com/intent/tweet/?text=Introduction%20to%20Proxies&amp;url=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve">
             <path
@@ -188,7 +188,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
         </svg>
     </a>
     <a class="share-button-single" target="_blank" rel="noopener" name="linkedin"
-        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f&amp;title=Introduction%20to%20Proxies&amp;summary=Introduction%20to%20Proxies&amp;source=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f">
+        href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f&amp;title=Introduction%20to%20Proxies&amp;summary=Introduction%20to%20Proxies&amp;source=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve">
             <path
@@ -196,7 +196,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
         </svg>
     </a>
     <a class="share-button-single" target="_blank" rel="noopener" name="reddit"
-        href="https://reddit.com/submit?url=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f&title=Introduction%20to%20Proxies">
+        href="https://reddit.com/submit?url=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f&title=Introduction%20to%20Proxies">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve">
             <path
@@ -204,7 +204,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
         </svg>
     </a>
     <a class="share-button-single" target="_blank" rel="noopener" name="facebook"
-        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f">
+        href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve">
             <path
@@ -212,7 +212,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
         </svg>
     </a>
     <a class="share-button-single" target="_blank" rel="noopener" name="whatsapp"
-        href="whatsapp://send?text=Introduction%20to%20Proxies%20-%20https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f">
+        href="whatsapp://send?text=Introduction%20to%20Proxies%20-%20https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" viewBox="0 0 512 512" width="100%" xml:space="preserve">
             <path
@@ -220,7 +220,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
         </svg>
     </a>
     <a class="share-button-single" target="_blank" rel="noopener" name="telegram"
-        href="https://telegram.me/share/url?text=Introduction%20to%20Proxies&amp;url=https%3a%2f%2fjstewart7.github.io%2fposts%2fintro_to_proxy%2f">
+        href="https://telegram.me/share/url?text=Introduction%20to%20Proxies&amp;url=https%3a%2f%2funitoftime.github.io%2fposts%2fintro_to_proxy%2f">
         <svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"
             version="1.1" width="100%" xml:space="preserve" viewBox="2 2 28 28">
             <path
@@ -236,7 +236,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
 
     </main><footer class="footer">
 
-    <span>&copy; 2021 <a href="https://jstewart7.github.io">Jacob Stewart</a></span>
+    <span>&copy; 2021 <a href="https://unitoftime.github.io">Jacob Stewart</a></span>
 
 </footer>
 <a href="#top" aria-label="go to top" title="Go to Top">
@@ -247,7 +247,7 @@ What even is a proxy? A proxy is a service that sits in front of another compute
 </a>
 
 
-<script src="https://jstewart7.github.io/js/highlight.min.min.ea33902032a64c5c80fb76422c63e6e62d0a334ebab24972051d0ed081323044.js" integrity="sha256-6jOQIDKmTFyA&#43;3ZCLGPm5i0KM066sklyBR0O0IEyMEQ="></script>
+<script src="https://unitoftime.github.io/js/highlight.min.min.ea33902032a64c5c80fb76422c63e6e62d0a334ebab24972051d0ed081323044.js" integrity="sha256-6jOQIDKmTFyA&#43;3ZCLGPm5i0KM066sklyBR0O0IEyMEQ="></script>
 
 <script>
     window.onload = function () {

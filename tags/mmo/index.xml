@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MMO on Jacob Stewart</title>
-    <link>https://jstewart7.github.io/tags/mmo/</link>
+    <link>https://unitoftime.github.io/tags/mmo/</link>
     <description>Recent content in MMO on Jacob Stewart</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>Copyright © Jacob Stewart; all rights reserved.</copyright>
-    <lastBuildDate>Sat, 11 Sep 2021 21:53:56 +0000</lastBuildDate><atom:link href="https://jstewart7.github.io/tags/mmo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Sep 2021 21:53:56 +0000</lastBuildDate><atom:link href="https://unitoftime.github.io/tags/mmo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Proxies</title>
-      <link>https://jstewart7.github.io/posts/intro_to_proxy/</link>
+      <link>https://unitoftime.github.io/posts/intro_to_proxy/</link>
       <pubDate>Sat, 11 Sep 2021 21:53:56 +0000</pubDate>
       
-      <guid>https://jstewart7.github.io/posts/intro_to_proxy/</guid>
+      <guid>https://unitoftime.github.io/posts/intro_to_proxy/</guid>
       <description>Introduction This week I worked on adding a network proxy to our backend architecture. Today we will talk about what a network proxy is, why it is useful, and how we built ours.
 What even is a proxy? A proxy is a service that sits in front of another computer and forwards network messages on behalf of that computer. Similar to how a proxy voter might vote on behalf of a person - a proxy server sends and receives network traffic on behalf of another server.</description>
     </item>
